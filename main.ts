@@ -1,3 +1,6 @@
+scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile1`, function (sprite, location) {
+    game.gameOver(true)
+})
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 	
 })
